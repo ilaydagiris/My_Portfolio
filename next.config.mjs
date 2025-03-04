@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  distDir: 'dist',
+  basePath: '',
   images: {
-    unoptimized: true,
-    loader: 'custom',
-    loaderFile: './src/app/image.js',
+    unoptimized: true
   }
 };
 
