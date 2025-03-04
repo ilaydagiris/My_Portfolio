@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '',
+  distDir: 'dist',
   images: {
-    unoptimized: true
-  },
-  trailingSlash: true
+    unoptimized: true,
+    loader: 'custom',
+    loaderFile: './src/app/image.js',
+  }
 };
 
 export default nextConfig;
