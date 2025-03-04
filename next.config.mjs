@@ -2,11 +2,9 @@
 const nextConfig = {
   output: 'export',
   images: {
-    unoptimized: true,
-    domains: ['ilaydagiris.github.io']
+    unoptimized: true
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '' : ''
+  basePath: process.env.NODE_ENV === 'production' ? '/ilaydagiris.github.io' : ''
 };
 
 export default nextConfig;
