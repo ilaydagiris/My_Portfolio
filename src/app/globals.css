@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&family=Quicksand:wght@300;400;500&display=swap');
+
+@layer base {
+  body {
+    @apply font-body bg-background text-foreground;
+  }
+
+  h1, h2 {
+    @apply font-title;
+  }
+}
+
+@layer components {
+  .navbar {
+    @apply bg-navbar py-4 px-6 fixed top-0 left-0 w-full z-50 shadow-md;
+  }
+
+  .nav-container {
+    @apply container mx-auto flex justify-between items-center;
+  }
+
+  .nav-brand {
+    @apply text-xl font-bold text-foreground no-underline;
+  }
+
+  .nav-links {
+    @apply flex gap-6 list-none m-0 p-0;
+  }
+
+  .nav-link {
+    @apply text-foreground no-underline px-4 py-2 rounded-md transition-colors hover:bg-hover hover:text-white;
+  }
+
+  .main-content {
+    @apply mt-20 p-8;
+  }
+
+  .project-card {
+    @apply bg-white rounded-lg p-6 shadow-md mb-6;
+  }
+
+  .project-title {
+    @apply text-2xl font-bold text-foreground mb-2;
+  }
+
+  .project-description {
+    @apply text-gray-600 mb-4;
+  }
+
+  .tech-stack {
+    @apply text-sm text-hover;
+  }
+
+  .button {
+    @apply bg-accent text-white px-4 py-2 rounded-md border-none cursor-pointer inline-block no-underline hover:bg-hover transition-colors;
+  }
+}
