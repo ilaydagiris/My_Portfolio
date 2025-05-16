@@ -8,7 +8,7 @@ export default function Home() {
         <h1 className="text-5xl font-bold text-center text-blue-300">Welcome to My Portfolio</h1>
         <p className="mt-6 text-lg text-center max-w-2xl">
         Proficient in Groovy and Java, with hands-on experience in analyzing scalable API services using cloud-based architecture. 
-        Passionate about data-driven solutions, performance optimization, and cross-functional collaboration. 
+        Passionate about data-driven solutions, performance optimization, and cross-functional collaboration. Currently exploring prompt-based LLM integrations.
         </p>
       </div>
     </div>

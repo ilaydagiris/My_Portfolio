@@ -61,8 +61,8 @@ export default function Home() {
     {
       icon: <EmailIcon />,
       label: "Email",
-      value: "ilaydagiris@gmail.com",
-      link: "mailto:ilaydagiris@gmail.com",
+      value: "ilaydagiris@hotmail.com",
+      link: "mailto:ilaydagiris@hotmail.com",
       color: "text-green-300"
     }
   ];
